@@ -7,9 +7,7 @@ take screenshots in the editor with this tool
 Installing: 
 
 1. Download the Zip from here: [Download Project](https://github.com/kinifi/unityeditor-screenshot-tool/archive/master.zip)
-
 2. Import the Unity Package into your Project. You can move this folder anywhere you want as long as you leave the folder structure.
-
 3. Select Window-> and if Screenshot Tool is in the list then it was installed correctly
 
 
