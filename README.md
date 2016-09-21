@@ -12,6 +12,7 @@ Installing:
 
 
 Steps to Take Screenshots: 
+
 1. Open the Tool from Window->Screenshot Tool or Control+l on your keyboard
 2. Dock the window if needed
 3. Select a camera from your scene and drag it into the camera object field
