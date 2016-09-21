@@ -16,7 +16,6 @@ public class CaptureScreenShotEditor : EditorWindow
 
 	private string m_fileLocation, m_fileName;
 	private int m_superSize = 1;
-	private UnityEngine.Object m_camera;
 
 
 	[MenuItem("Window/Screenshot Editor %l")]
@@ -41,12 +40,6 @@ public class CaptureScreenShotEditor : EditorWindow
 
 	private void OnGUI()
 	{
-		GUILayout.Space(10);
-
-		//camera selection gui
-		GUILayout.Label("Drag and Drop the Camera you want to take a Screenshot", EditorStyles.helpBox);
-		m_camera = EditorGUILayout.ObjectField(m_camera, typeof(Camera), true);
-
 		GUILayout.Space(10);
 
 		GUILayout.Label("Name the screenshot. Do not include file types", EditorStyles.helpBox);
