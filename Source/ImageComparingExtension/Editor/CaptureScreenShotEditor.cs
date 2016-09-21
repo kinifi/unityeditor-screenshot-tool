@@ -74,16 +74,6 @@ public class CaptureScreenShotEditor : EditorWindow
 
 		GUILayout.EndHorizontal();
 
-		// //check to make sure they have selected a save location
-		// if( m_fileLocation.Length != 0 )
-		// {
-		// 	GUILayout.Label(m_fileLocation, EditorStyles.helpBox);
-		// }
-		// else
-		// {
-		// 	GUILayout.Label("No Location Selected", EditorStyles.boldLabel);
-		// }
-
 
 		GUILayout.Space(20);
 		GUILayout.Label("This will take some time to write to a file. Be patient.", EditorStyles.helpBox);
