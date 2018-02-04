@@ -91,7 +91,7 @@ public class CaptureScreenShotEditor : EditorWindow
 	//captures a screenshot at the designated save location, file name, supersize
 	public void CaptureScreen()
 	{
-        Application.CaptureScreenshot(m_fileLocation + "/" + m_fileName + ".png", m_superSize);
+        ScreenCapture.CaptureScreenshot(m_fileLocation + "/" + m_fileName + ".png", m_superSize);
 	}
 
 
